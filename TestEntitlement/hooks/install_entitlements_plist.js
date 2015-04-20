@@ -9,14 +9,10 @@ var createEntitlementsPlistFile = function (appId) {
   '<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">\n' +
   '<plist version="1.0">\n' +
   '    <dict>\n' +
-  '        <key>aps-environment</key>\n' +
-  '        <string>production</string>\n' +
-  '        <key>get-task-allow</key>\n' +
-  '        <false/>\n' +
-  '        <key>beta-reports-active</key>\n' +
-  '        <true/>\n' +
-  '        <key>application-identifer</key>\n' +
-  '        <string>' + appId + '</string>\n' +
+  '        <key>keychain-access-groups</key>\n' +
+  '        <array>\n' +
+  '        <string>Testing-This-Out</string>\n' +
+  '        </array>\n' +
   '    </dict>\n' +
   '</plist>\n';
 

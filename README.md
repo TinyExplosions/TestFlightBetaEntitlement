@@ -1,4 +1,4 @@
-TestFlightBetaEntitlement
+TestEntitlement
 =========================
 
 :warning::warning: Apparently my first test flight test (that passed making me think this was the solution) didn't pass because of this plugin. Still researching...:warning::warning:
@@ -9,7 +9,7 @@ Cordova Plugin that creates the `Entitlement.plist` necessary to deploy cordova 
 
 1. This plugin requires the use of [node-xcode](https://github.com/alunny/node-xcode). You can install it into your project locally with `npm install --save-dev xcode`
 
-2. `cordova plugin add com.staxmanade.testflightbetaentitlement`
+2. `cordova plugin add com.TinyExplosions.TestEntitlement`
 
 # What is required to use Apple's new TestFlight Beta?
 
